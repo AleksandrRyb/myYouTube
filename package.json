@@ -1,0 +1,24 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "youtube clone for learning purposes",
+  "main": "index.js",
+  "keywords": [
+    "youtube",
+    "wetube"
+  ],
+  "author": "Aleksandr Rybin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "nodemon": "^2.0.4"
+  }
+}
